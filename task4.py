@@ -6,9 +6,6 @@ import re
 from itertools import *
 import itertools
 
-first = '7*x^2+6*x+3 = 0'
-second = '5*x^3 + 2*x^2+6 = 0'
-
 def polynomial_parse(polynomial):
     polynomial = polynomial.replace('= 0','')
     polynomial = polynomial.replace('=0','')
@@ -61,6 +58,8 @@ def create_new_pol(res):
     new_pol[-1] = ' = 0'
     return ''.join(map(str,new_pol))
 
+first = '7*x^2+6*x+3 = 0'
+second = '5*x^3 + 2*x^2+6 = 0'
 print('Первоначальный вид многочленов: ')
 print(first)
 print(second)
