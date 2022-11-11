@@ -14,7 +14,7 @@ def max_sequence(arr):
         seq = [min(arr),elem - 1]
     return seq
 
-numbers =  [1, 5, 2, 3, 4,  1, 7, 8 , 15 , 1 ]
+numbers =  [1, 5, 2, 3, 4,  1, 7, 8 , 15 , 1,5,6]
 print(len(numbers))
 seq_1 = []
 for i in range(len(numbers)):
