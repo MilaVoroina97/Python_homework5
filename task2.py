@@ -44,4 +44,6 @@ with open('file_after_coding.txt','w',encoding='UTF-8') as file:
     encodint_text = encode_text(decoding_text)
     file.write(encodint_text)
 
+print(f'Текст после использования RLE - алогритма - {encodint_text}')
+print(f'Возвращаем текст обратно - {decode_text(encodint_text)} ')
             
